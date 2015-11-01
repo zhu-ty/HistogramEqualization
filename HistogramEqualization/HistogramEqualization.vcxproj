@@ -64,6 +64,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="SKCommandHandler.h" />
+    <ClInclude Include="SKDefinition.h" />
+    <ClInclude Include="SKImageDisplayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SKCommandHandler.cpp" />
+    <ClCompile Include="SKImageDisplayer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
